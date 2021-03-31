@@ -13,12 +13,12 @@ function YourBanner(){
  echo -e ""
 }
 
-source /etc/os-release
-if [[ "$ID" != 'ubuntu' ]]; then
- YourBanner
- echo -e "[\e[1;31mError\e[0m] This script is for Debian Machine only, exting..." 
- exit 1
-fi
+#source /etc/os-release
+#if [[ "$ID" != 'ubuntu' ]]; then
+# YourBanner
+# echo -e "[\e[1;31mError\e[0m] This script is for Debian Machine only, exting..." 
+# exit 1
+#fi
 
 if [[ $EUID -ne 0 ]];then
  YourBanner
