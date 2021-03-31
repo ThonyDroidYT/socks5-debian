@@ -13,6 +13,10 @@ function YourBanner(){
  echo -e ""
 }
 
+#barra
+barra () {
+}
+
 #source /etc/os-release
 #if [[ "$ID" != 'ubuntu' ]]; then
 # YourBanner
