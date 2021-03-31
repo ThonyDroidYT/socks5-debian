@@ -89,6 +89,7 @@ function SuccessMessage(){
  echo -e " Your SOCKS5 Authentication:"
  echo -e " SOCKS5 Username: $socksUser"
  echo -e " SOCKS5 Password: $socksPass"
+ echo -e "\033[0m socks5://$socksUser:$socksPass@$(wget -4qO- http://ipinfo.io/ip):$SOCKSPORT \033[0m"
  fi
  echo -e " Install.txt can be found at /root/socks5.txt"
  cat <<EOF> ~/socks5.txt
