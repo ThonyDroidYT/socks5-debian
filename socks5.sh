@@ -6,15 +6,19 @@
 
 function YourBanner(){
 # Edit nyo to
- echo -e " Welcome to my Script"
- echo -e " SOCKS5 Server Installer for Debian"
- echo -e " Script by Bonveio"
- echo -e " This script is open for Remodification and Redistribution"
- echo -e ""
+barra
+ #echo -e " Welcome to my Script"
+ #echo -e " SOCKS5 Server Installer for Debian"
+ #echo -e " Script by Bonveio"
+ #echo -e " This script is open for Remodification and Redistribution"
+ #echo -e ""
+ echo -e "\033[1;33m Instalador Socks5 \033[1;32m[NEW-ADM-PLUS] \033[0m"
+barra
 }
 
 #barra
 barra () {
+bash /etc/newadm/menu --barra
 }
 
 #source /etc/os-release
@@ -117,9 +121,9 @@ YourBanner
 echo -e " To exit the script, kindly Press \e[1;32mCRTL\e[0m key together with \e[1;32mC\e[0m"
 echo -e ""
 echo -e " Choose SOCKS5 Proxy Type"
-echo -e " [1] Public Proxy (Can be Accessible by Anyone in the Internet)"
-echo -e " [2] Private Proxy (Can be Accessable using username and password Authentication"
-echo -e " [3] Uninstall SOCKS5 Proxy Server"
+echo -e "\033[1;32m [1] \033[1;36mPublic Proxy (Can be Accessible by Anyone in the Internet) \033[0m"
+echo -e "\033[1;32m [2] \033[1;36mPrivate Proxy (Can be Accessable using username and password Authentication \033[0m"
+echo -e "\033[1;32m [3] \033[1;31mUninstall SOCKS5 Proxy Server \033[0m"
 until [[ "$opts" =~ ^[1-3]$ ]]; do
 	read -rp " Choose from [1-3]: " -e opts
 	done
