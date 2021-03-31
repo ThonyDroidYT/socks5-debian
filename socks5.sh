@@ -6,14 +6,14 @@
 
 function YourBanner(){
 # Edit nyo to
-barra
+ barra
  #echo -e " Welcome to my Script"
  #echo -e " SOCKS5 Server Installer for Debian"
  #echo -e " Script by Bonveio"
  #echo -e " This script is open for Remodification and Redistribution"
  #echo -e ""
  echo -e "\033[1;33m Instalador Socks5 \033[1;32m[NEW-ADM-PLUS] \033[0m"
-barra
+ barra
 }
 
 #barra
