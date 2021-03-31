@@ -14,7 +14,7 @@ function YourBanner(){
 }
 
 source /etc/os-release
-if [[ "$ID" != 'debian' ]]; then
+if [[ "$ID" != 'ubuntu' ]]; then
  YourBanner
  echo -e "[\e[1;31mError\e[0m] This script is for Debian Machine only, exting..." 
  exit 1
