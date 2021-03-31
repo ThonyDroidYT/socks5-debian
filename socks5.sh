@@ -121,6 +121,7 @@ YourBanner
 echo -e " To exit the script, kindly Press \e[1;32mCRTL\e[0m key together with \e[1;32mC\e[0m"
 echo -e ""
 echo -e " Choose SOCKS5 Proxy Type"
+echo -e "\033[1;31m [0] Exit \033[0m"
 echo -e "\033[1;32m [1] \033[1;36mPublic Proxy (Can be Accessible by Anyone in the Internet) \033[0m"
 echo -e "\033[1;32m [2] \033[1;36mPrivate Proxy (Can be Accessable using username and password Authentication \033[0m"
 echo -e "\033[1;32m [3] \033[1;31mUninstall SOCKS5 Proxy Server \033[0m"
